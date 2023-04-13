@@ -7,7 +7,7 @@ export default function Routes() {
   return (
     <BaseRoutes>
       <Route path="/" element={<Home />} />
-      <Route path=":userName" element={<Profile />} />
+      <Route path=":username" element={<Profile />} />
     </BaseRoutes>
   );
 }

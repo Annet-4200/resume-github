@@ -1,10 +1,12 @@
 import React from 'react';
 import Routes from './router/Routes';
-import './App.css';
+import './App.scss';
 
 function App() {
   return (
-    <Routes />
+    <div className='base-container'>
+      <Routes />
+    </div>
   );
 }
 

@@ -1,14 +1,15 @@
-import { useParams, useNavigate } from "react-router";
-import { useSearchParams } from "react-router-dom";
+import { useParams, useNavigate } from 'react-router';
+import { useSearchParams } from 'react-router-dom';
 
 export const Profile = () => {
-  const { productId } = useParams();
+  const { username } = useParams();
   const navigate = useNavigate();
   const [queryParams] = useSearchParams();
   
+  
   return (
-    <div className="profile">
-    
+    <div className='profile'>
+      profile {username}
     </div>
   );
 }

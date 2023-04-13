@@ -35,7 +35,7 @@ export const Home = () => {
             <p>
               Please, enter your GitHub username and click on Submit button for resume creation.
             </p>
-            <div className='inline'>
+            <div className='input-inline'>
               <div className='input-container'>
                 <TextField
                   variant='filled'
